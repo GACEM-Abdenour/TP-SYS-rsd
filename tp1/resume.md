@@ -1,5 +1,18 @@
 # Semaphore & Process Cheat Sheet
 
+## 📑 Table of Contents
+- [Keys & Identifiers](#keys--identifiers)
+- [Semaphore Control](#semaphore-control)
+- [Semaphore Operations](#semaphore-operations)
+- [Standard Operations](#standard-operations)
+- [Synchronization Patterns](#synchronization-patterns)
+- [Cleanup](#-cleanup)
+- [Process & Signal Quick Reference](#-process--signal-quick-reference)
+- [Table of Matters (Quick Reference)](#-table-of-matters-quick-reference)
+
+---
+
+
 ## Keys & Identifiers
 - **`ftok(path, proj_id)`**
   - Generates a unique key (`key_t`) from a file path + project ID.
